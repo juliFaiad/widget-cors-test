@@ -1,0 +1,16 @@
+{
+    "redirects": [
+        {
+            "from": "/",
+            "to": "/index.html"
+        },
+        {
+            "from": "/develop",
+            "to": "/develop.html"
+        },
+        {
+            "from": "json",
+            "to": "/json.html"
+        }
+    ]
+}
