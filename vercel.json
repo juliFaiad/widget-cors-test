@@ -5,11 +5,11 @@
             "to": "/index.html"
         },
         {
-            "from": "/develop",
+            "from": "/develop/",
             "to": "/develop.html"
         },
         {
-            "from": "json",
+            "from": "/json/",
             "to": "/json.html"
         }
     ]
