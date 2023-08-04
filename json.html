@@ -6,9 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
-    <div style="display: flex; flex-direction: column">
-      <div>Testing Json</div>
+  <body style="display: flex; flex-direction: column">
+    <h1>Testing key - json</h1>
+    <ul style="display: flex; gap: 2rem">
+      <li>
+        <a href="/index.html">Key - production</a>
+      </li>
+      <li>
+        <a href="/develop.html">Key - development</a>
+      </li>
+      <li>
+        <span href="/json.html">Json</span>
+      </li>
+    </ul>
       <div
         style="width: 100vw"
         id="skp-widget-container"
@@ -16,6 +26,5 @@
       ></div>
     </div>
     <script type="module" src="/widget.js" data-debug="true"></script>
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
